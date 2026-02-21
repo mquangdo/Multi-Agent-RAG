@@ -57,6 +57,8 @@ streamlit run app.py
 - ChromaDB: Vector store
 - Tavily: Web search
 
-## Tracing with LangSmith
+## Tracing using LangSmith
 ![Tracing](langsmith.png)
+
+## LLM-as-a-Judge evaluator using LangSmith
 
