@@ -2,7 +2,7 @@
 
 Intelligent RAG system using multi-agent architecture with LangGraph and Streamlit.
 
-[!chatbot.png][Chatbot]
+![Agent](chatbot.png)
 
 ## Features
 
