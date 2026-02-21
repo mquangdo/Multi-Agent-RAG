@@ -1,52 +1,52 @@
 # Agentic RAG System
 
-Hệ thống RAG thông minh sử dụng multi-agent architecture với LangGraph và Streamlit.
+Intelligent RAG system using multi-agent architecture with LangGraph and Streamlit.
 
-## Tính năng
+## Features
 
-- Multi-agent routing: Tự động chọn cách tìm kiếm phù hợp
-- Query reformulation: Tự động cải thiện câu hỏi để kết quả tốt hơn
-- Web search fallback: Tìm kiếm từ web khi tài liệu không đủ
-- Document grading: Đánh giá độ liên quan của tài liệu
-- Safety check: Kiểm tra nội dung an toàn
-- Hỗ trợ nhiều nguồn: URL, TXT, PDF, DOCX
+- Multi-agent routing: Automatically selects best retrieval method
+- Query reformulation: Improves questions for better results
+- Web search fallback: Searches web when documents are insufficient
+- Document grading: Evaluates document relevance
+- Safety check: Ensures safe content
+- Multiple sources: Supports URLs, TXT, PDF, DOCX
 
-## Cài đặt
+## Installation
 
-1. Tạo file `.env`:
+1. Create `.env` file:
 ```
-GROQ_API_KEY=key_cua_ban
-TAVILY_API_KEY=key_cua_ban
-LANGSMITH_API_KEY=key_cua_ban
+GROQ_API_KEY=your_key
+TAVILY_API_KEY=your_key
+LANGSMITH_API_KEY=your_key
 ```
 
-2. Cài dependencies:
+2. Install dependencies:
 ```bash
 pip install streamlit langchain langgraph langchain-groq langchain-tavily langchain-huggingface langchain-community chromadb sentence-transformers
 ```
 
-3. Chạy:
+3. Run:
 ```bash
 streamlit run app.py
 ```
 
-## Cách dùng
+## Usage
 
-1. Thêm URL hoặc upload file vào sidebar
-2. Nhấn "Apply Parameters & Update Knowledge"
-3. Đặt câu hỏi và nhận câu trả lời
+1. Add URLs or upload files in sidebar
+2. Click "Apply Parameters & Update Knowledge"
+3. Ask questions and get answers
 
-## Cấu trúc dự án
+## Project Structure
 
-- `app.py`: Main app (cấu trúc dạng module)
+- `app.py`: Main app (modular structure)
 - `main.py`: Main app (single file)
-- `agents.py`: Các agent functions
-- `decisions.py`: Logic routing
+- `agents.py`: Agent functions
+- `decisions.py`: Routing logic
 - `state.py`: State management
 - `config.py`: Configuration
 - `utils.py`: Utility functions
 
-## Công nghệ sử dụng
+## Technologies
 
 - LangGraph: Multi-agent orchestration
 - Streamlit: UI
