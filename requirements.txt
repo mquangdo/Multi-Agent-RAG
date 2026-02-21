@@ -1,0 +1,16 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-huggingface
+langchain-tavily
+langchain-text-splitters
+langgraph
+chromadb
+pysqlite3-binary
+pydantic
+sentence-transformers
+tiktoken
+pypdf
+python-docx
