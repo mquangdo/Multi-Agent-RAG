@@ -2,6 +2,8 @@
 
 Intelligent RAG system using multi-agent architecture with LangGraph and Streamlit.
 
+[!chatbot.png][Chatbot]
+
 ## Features
 
 - Multi-agent routing: Automatically selects best retrieval method
