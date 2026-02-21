@@ -56,3 +56,7 @@ streamlit run app.py
 - HuggingFace: Embeddings
 - ChromaDB: Vector store
 - Tavily: Web search
+
+## Tracing with LangSmith
+![Tracing](langsmith.png)
+
