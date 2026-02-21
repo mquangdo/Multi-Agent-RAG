@@ -2,7 +2,7 @@
 
 Intelligent RAG system using multi-agent architecture with LangGraph and Streamlit.
 
-![Agent](chatbot.png)
+![Agent](img/chatbot.png)
 
 ## Features
 
@@ -58,7 +58,9 @@ streamlit run app.py
 - Tavily: Web search
 
 ## Tracing using LangSmith
-![Tracing](langsmith.png)
+![Tracing](img/tracing.png)
 
 ## LLM-as-a-Judge evaluator using LangSmith
+![Evaluation](img/evaluation.png)
+
 
