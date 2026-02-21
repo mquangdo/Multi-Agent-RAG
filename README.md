@@ -24,7 +24,7 @@ LANGSMITH_API_KEY=your_key
 
 2. Install dependencies:
 ```bash
-pip install streamlit langchain langgraph langchain-groq langchain-tavily langchain-huggingface langchain-community chromadb sentence-transformers
+pip install -r requirements.txt
 ```
 
 3. Run:
